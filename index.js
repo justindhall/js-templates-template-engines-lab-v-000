@@ -11,5 +11,7 @@ function createPost(){
   //get values for templates
   var postTitle = document.getElementById("PostTitle").value;
   var postAuthor = document.getElementById("postAuthor").value;
-  var post = document.getElementById("postBody").value
+  var post = document.getElementById("postBody").value;
+  
+  document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
 }
