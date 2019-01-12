@@ -14,4 +14,6 @@ function createPost(){
   var post = document.getElementById("postBody").value;
   
   document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
+  
+  var blogSection = postTemplate({ 'title': postTitle, 'body':post, 'poster': postAuthor });
 }
