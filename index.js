@@ -8,5 +8,8 @@ function createPost(){
   
   var commentsTemplate = _.template(document.getElementById("comments-template").innerHTML);
   
-  
+  //get values for templates
+  var postTitle = document.getElementById("PostTitle").value;
+  var postAuthor = document.getElementById("postAuthor").value;
+  var post = document.getElementById("postBody").value
 }
