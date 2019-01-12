@@ -1,3 +1,3 @@
 //templates
 
-var page-template = _template
+var page-template = _.template
